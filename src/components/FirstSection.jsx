@@ -3,7 +3,7 @@ import Page from './Page';
 const FirstSection = () => {
   return (
     <>
-      <div className='lg:px-80'>
+      <div className='lg:px-32'>
         
 
       <div className="first sm:w-[600px] relative md:w-[1000px] m lg:w-[1400px] lg:h-[800px]  ">

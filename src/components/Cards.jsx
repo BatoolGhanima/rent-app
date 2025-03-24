@@ -55,7 +55,7 @@ const Cards = () => {
 
     return (
         <>
-            <div className='lg:px-48'>
+            <div className='lg:px-24'>
 
            
             <div className='flex justify-center items-center flex-col mt-8 '>
@@ -64,7 +64,7 @@ const Cards = () => {
                 <p className="text-[20px] mt-4 text-gray-500">
                 اختر من بين مجموعة من اتواع العقارات لتناسب احتياجك ونمط حياتك.                </p>
             </div>
-            <div className='<div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full px-4">
+            <div className='<div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
 '>
                 
 

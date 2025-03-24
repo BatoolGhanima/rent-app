@@ -4,7 +4,7 @@ import secondHome2 from '../assets/secondHome3.svg';
 import secondHome4 from '../assets/secondHome4.svg';
 import secondHome5 from '../assets/secondHome5.svg';
 import secondHome6 from '../assets/secondHome6.svg';
-import vector from '../assets/vector.svg'
+import vector from '../assets/Vector.svg'
 import Vector2 from '../assets/Vector (2).svg'
 import Vector3 from '../assets/Vector (1).svg'
 const Cards = () => {

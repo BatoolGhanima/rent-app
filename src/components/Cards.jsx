@@ -55,7 +55,7 @@ const Cards = () => {
 
     return (
         <>
-            <div className='lg:px-24'>
+            <div className=''>
 
            
             <div className='flex justify-center items-center flex-col mt-8 '>
@@ -64,12 +64,12 @@ const Cards = () => {
                 <p className="text-[20px] mt-4 text-gray-500">
                 اختر من بين مجموعة من اتواع العقارات لتناسب احتياجك ونمط حياتك.                </p>
             </div>
-            <div className='<div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+            <div className='<div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-2 px-4">
 '>
                 
 
             {products.map((product) => (
-                <div key={product.id} className="flex flex-col  w-[384px] h-[430px] p-4 m-4 rounded-lg shadow-lg relative hover:translate-y-[-10px] transition-all hover:shadow-xl  ">
+                <div key={product.id} className="flex flex-col  w-[370px] h-[430px] p-4 m-4 rounded-lg shadow-lg relative hover:translate-y-[-10px] transition-all hover:shadow-xl  ">
                     <img src={product.image} alt={product.title} className="w-full h-[240px] object-cover rounded-md" />
                     <div className="p-2 text-right ">
                         <div className='flex justify-around gap-4 items-center'>

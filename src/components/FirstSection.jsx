@@ -3,12 +3,12 @@ import Page from './Page';
 const FirstSection = () => {
   return (
     <>
-      <div className='lg:px-32'>
+      
         
 
-      <div className="first sm:w-[600px] relative md:w-[1000px] m lg:w-[1400px] lg:h-[800px]  ">
+      <div className="first absolute left-[50%] translate-x-[-50%] w-[600px] relative md:w-[1000px]  lg:w-[1400px] lg:h-[800px]  ">
         <img src={homeImage} alt="" className='absolut inset-0 w-full h-full object-cover' />
-        <div className='sm:h-full md:h-[600px] sm:w-[600px] md:w-[1000px]   lg:w-[1400px] lg:h-[800px] flex flex-col justify-start items-center absolute top-0 left-0  bg-gradient-to-b from-black '>
+        <div className='h-full md:h-[600px] w-[600px] md:w-[1000px]   lg:w-[1400px] lg:h-[800px] flex flex-col justify-start items-center absolute top-0 left-0  bg-gradient-to-b from-black '>
           <h1 className='md:text-[56px]  mt-8 font-semibold text-white'>
         المكان المناسب لحياتك يبدا من هنا !
           </h1>
@@ -19,7 +19,7 @@ const FirstSection = () => {
         
         
      
-      <div className=' md:w-[70%] sm:top-[93%] lg:w-[80%] md:top-[92%] absolute justify-center items-center left-[50%] translate-x-[-50%] gap-1 p-2 md:gap-6 flex bg-white md:h-[122px] shadow-lg  px-4'>
+      <div className='top-[93%]  md:w-[70%] lg:w-[80%] md:top-[92%] absolute justify-center items-center left-[50%] translate-x-[-50%] gap-1 p-2 md:gap-6 flex bg-white md:h-[122px] shadow-lg  px-4'>
         <select name="propertyType" id="propertyType" className='border md:py-4 md:px-2 md:w-[150px] md:h-[56px] text-gray-500 z-10'>
           <option value="">شقق سكنية</option>
           <option value="apartment">شقة</option>
@@ -50,7 +50,7 @@ const FirstSection = () => {
       </div>
 </div>
 </div>
-    </div>
+
   
      <Page />
     </> );
